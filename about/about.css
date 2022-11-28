@@ -1,0 +1,96 @@
+body {
+  max-width: 1440px;
+  margin: 0;
+  padding: 0;
+}
+
+/* atas */
+.up {
+  margin-bottom: 120px;
+}
+
+.about h1 {
+  border-bottom: 2px solid #e73587;
+  border-width: medium;
+}
+
+.about-text {
+  width: 50%;
+  text-align: center;
+}
+
+.up img {
+  position: absolute;
+  z-index: -1;
+}
+
+/* bawah */
+.down-title {
+  margin-bottom: 50px;
+}
+
+.down-title h1 {
+  border-bottom: 2px solid #e73587;
+  border-width: medium;
+}
+
+/* card */
+.row-about {
+  padding: 0 6.9vw;
+  background: linear-gradient(#ffffff 50%, #020e35 50%);
+}
+
+.row-about .card {
+  border: none;
+  padding: 4px;
+  border-radius: 0;
+}
+
+.row-about .card h5 {
+  margin-bottom: 22px;
+}
+
+/* card button */
+.button-about {
+  margin-top: 43px;
+  margin-bottom: 27px;
+}
+
+.button-about button {
+  padding: 12px 40px;
+  font-size: 12px;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  border: none;
+  color: white;
+}
+
+/* carousel full display*/
+#carouselExampleControls {
+  display: none;
+}
+
+.carousel-about .card p {
+  text-align: justify;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  /* atas */
+  .about-text {
+    width: 75%;
+    text-align: justify;
+  }
+
+  /* bawah */
+  .row-about .col-md-4 {
+    display: none;
+  }
+
+  #buttonFullscreen {
+    display: none;
+  }
+
+  #carouselExampleControls {
+    display: block;
+  }
+}
