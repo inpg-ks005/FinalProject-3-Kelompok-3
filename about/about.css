@@ -36,6 +36,7 @@ body {
 
 /* card */
 .row-about {
+  margin: 0;
   padding: 0 6.9vw;
   background: linear-gradient(#ffffff 50%, #020e35 50%);
 }
@@ -67,10 +68,6 @@ body {
 /* carousel full display*/
 #carouselExampleControls {
   display: none;
-}
-
-.carousel-about .card p {
-  text-align: justify;
 }
 
 /* responsive */
