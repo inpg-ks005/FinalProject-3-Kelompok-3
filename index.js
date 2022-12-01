@@ -47,3 +47,4 @@ button[2].addEventListener("click", changeBackground);
 button[3].addEventListener("click", changeBackground);
 button[4].addEventListener("click", changeBackground);
 button[5].addEventListener("click", changeBackground);
+button[6].addEventListener("click", changeBackground);
