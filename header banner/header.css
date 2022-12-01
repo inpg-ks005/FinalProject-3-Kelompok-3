@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+
+body {
+    max-width: 1440px;
+    font-family: 'Basic', sans-serif;
+}
+
+
+
+.navbar-brand {
+    transform: translate(0%,30%);
+
+}
+.nav-link {
+    font-weight: 400;
+    color: black;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.8px;
+    
+}
+
+.button-contact{
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%) ;
+    border: none;
+    height: 40px;
+    width: 107px;
+    left: 1198px;
+    top: 20px;
+    color: #ffff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+/* banner */
+
+.banner .row h1 {
+    font-style: normal;
+    font-size: 97px;
+    font-weight: 400;
+    line-height: 122px;
+    color: #020E35;
+    padding-top: 5vw;
+    padding-left: 8vw;
+}
+
+@media screen and (max-width: 768px){
+    .banner .row h1 {
+        font-size: 50px;
+        font-weight: 400;
+        padding-left: 8vw;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .button-banner {
+        padding-left: 0vw;
+    
+        
+    }
+}
+
+.button-banner{
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%) ;
+    border: none;
+    height: 40px;
+    width: 140px;
+    left: 135px;
+    top: 591px;
+    color: #ffff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 8vw;
+}
+
+.img-fluid {
+    padding-top: 5vw;
+}
