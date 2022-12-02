@@ -20,9 +20,10 @@
 
     <!-- link css -->
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="/header banner/header.css" />
-    <link rel="stylesheet" href="/about/about.css" />
-    <link rel="stylesheet" href="/our work/ourwork.css" />
+    <link rel="stylesheet" href="header banner/header.css" />
+    <link rel="stylesheet" href="about/about.css" />
+    <link rel="stylesheet" href="our work/ourwork.css" />
+    <link rel="stylesheet" href="contact/contact.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -439,5 +440,62 @@
     </div>
 
     <!-- section d -->
+    <div class="row rowContact">
+      <div class="col-md-6">
+        <p class="paragraf">Questions, Comments, Concerns?</p>
+        <h1 class="bigtext">We'd Love to</h1>
+        <h1 class="bigtext">
+          <span style="color: #e73587">hear</span> from you!
+        </h1>
+      </div>
+
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label class="my-1 mr-2 textlabels" for="emailaddress"
+              >Your Email Address</label
+            >
+            <input
+              type="email"
+              class="emailandform"
+              id="emailadderss"
+              placeholder="something@example.com"
+              style="margin-bottom: 30px"
+            />
+          </div>
+          <div class="form-group">
+            <label class="my-1 mr-2 col-xs-4 col-md-4 textlabels" for="quest"
+              >Subject</label
+            >
+            <input
+              type="text"
+              class="emailandform"
+              id="quest"
+              placeholder="Question about your article"
+              style="margin-bottom: 30px"
+            />
+          </div>
+          <div class="form-group">
+            <label class="my-1 mr-2 col-xs-4 col-md-4 textlabels" for="msg1"
+              >Message</label
+            >
+            <textarea
+              class="texting"
+              id="msg1"
+              rows="3"
+              placeholder="Your message starts with…"
+              style="margin-bottom: 30px"
+            >
+            </textarea>
+          </div>
+        </form>
+        <button type="button" class="btn-sendmsg">Send A Message</button>
+      </div>
+    </div>
+    <div class="footbar d-flex align-items-center">
+      <div class="copyright">
+        <p class="text-light">2022 © HACKTIV8 WEB DEVELOPER PROGRAM</p>
+      </div>
+    </div>
   </body>
 </html>
